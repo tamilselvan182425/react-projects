@@ -18,7 +18,7 @@ export default function Header() {
         className="h-20 cursor-pointer"
         onClick={()=>navigate("/home")}
         />
-    </div>
+    </div> 
     <div>
     <ul className="flex space-x-10">
     <li className={`cursor-pointer py-6 text-sm font-bold text-gray-600 border-b-[3px] border-b-transparent ${pathMathRoute("/home")  && "text-black  border-b-red-600"}`}  onClick={()=>navigate("/home")} >Home</li>
